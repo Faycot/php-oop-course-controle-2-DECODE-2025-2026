@@ -69,7 +69,7 @@ docker compose exec php-oop-exercice php ./fixtures/generate.php
 
 ```
 
-The application should now be available at `http://127.0.0.1:8080`.
+The application should now be available at `http://127.0.0.1:8888`.
 
 ## How to submit
 
