@@ -1,13 +1,13 @@
 {
-    "name": "root/html",
-    "type": "library",
-    "require-dev": {
-        "fakerphp/faker": "^1.24"
-    },
-    "autoload": {
-        "psr-4": {
-            "Root\\Html\\": "src/"
-        }
-    },
-    "require": {}
+  "name": "root/html",
+  "type": "library",
+  "require-dev": {
+    "fakerphp/faker": "^1.24"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {}
 }

@@ -1,0 +1,78 @@
+[
+  {
+    "method": "GET",
+    "path": "/api",
+    "controller": "Api\\Controllers\\ApiController",
+    "action": "index"
+  },
+
+  {
+    "method": "POST",
+    "path": "/api/auth/register",
+    "controller": "Api\\Controllers\\AuthController",
+    "action": "register"
+  },
+  {
+    "method": "POST",
+    "path": "/api/auth/login",
+    "controller": "Api\\Controllers\\AuthController",
+    "action": "login"
+  },
+
+  {
+    "method": "GET",
+    "path": "/api/posts",
+    "controller": "Api\\Controllers\\PostController",
+    "action": "index"
+  },
+  {
+    "method": "GET",
+    "path": "/api/posts/{id}",
+    "controller": "Api\\Controllers\\PostController",
+    "action": "show"
+  },
+  {
+    "method": "POST",
+    "path": "/api/posts",
+    "controller": "Api\\Controllers\\PostController",
+    "action": "create"
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/posts/{id}",
+    "controller": "Api\\Controllers\\PostController",
+    "action": "update"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/posts/{id}",
+    "controller": "Api\\Controllers\\PostController",
+    "action": "delete"
+  },
+
+  {
+    "method": "GET",
+    "path": "/api/posts/{id}/comments",
+    "controller": "Api\\Controllers\\CommentController",
+    "action": "index"
+  },
+  {
+    "method": "POST",
+    "path": "/api/posts/{id}/comments",
+    "controller": "Api\\Controllers\\CommentController",
+    "action": "create"
+  },
+
+  {
+    "method": "PATCH",
+    "path": "/api/comments/{id}",
+    "controller": "Api\\Controllers\\CommentController",
+    "action": "update"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/comments/{id}",
+    "controller": "Api\\Controllers\\CommentController",
+    "action": "delete"
+  }
+]
